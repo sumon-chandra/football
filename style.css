@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 /* ---------------------------------------------Common CSS ---------------------------*/
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -193,11 +191,11 @@ body{
 
 @media only screen and (max-width:688px) {
     #header_area{
-        width: 100%;
+        width: 360px;
         display: block;
     }
     .btn button{
-        right: 21px;
+        right: 15px;
     }
     .header_text h1{
         font-size: 36px;
@@ -231,13 +229,16 @@ body{
     }
     .tables{
         width:340px;
-        margin-left:15px;
+        
     }
     .storys{
         flex-direction: column;
     }
     #story_area h1{
         font-size: 36px;
+    }
+    .story{
+        margin-left:21px;
     }
     .logo img{
         width:150px;
@@ -261,7 +262,41 @@ body{
 
 /* ----------------------------------------------Respinsive Tablte-------------------------------------- */
 
-
+@media only screen and (min-width:688px) and (max-width:992px){
+    #header_area{
+        width: 1223px;
+    }
+    .header_img {
+        width:600px;
+    }
+    .header_img {
+        right:-300px;
+    }
+    .header_text h1{
+        font-size: 50px;
+        margin-left: 60px;
+        
+    }
+    .btn button{
+        right:-377px;
+    }
+    .header_text_img button{
+        margin-left: 60px;
+    }
+    .players_section{
+        margin-left:60px;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    #story_area{
+        width:1226px;
+    }
+    .footer{
+        width:1223px;
+    }
+}    
 
 
 
