@@ -191,9 +191,27 @@ body{
 /*  ------------------------------------------Rsponsive ---------------------------------- */
 
 
-@media only screen and(max-width:688px){
+@media only screen and (max-width:688px) {
     #header_area{
-        width:400px;
+        width: 100%;
+        display: block;
+    }
+    .btn button{
+        right: 21px;
+    }
+    .header_text h1{
+        font-size: 36px;
+        margin-left: 15px;
+    }
+    .header_text_img button{
+        margin-left: 15px;
+    }
+    .header_img img{
+        width:329px;
+        height:259px;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
