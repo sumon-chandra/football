@@ -202,6 +202,10 @@ body{
     .header_text h1{
         font-size: 36px;
         margin-left: 15px;
+        margin-top:112px;
+    }
+    .header_text_img{
+        flex-direction: column;
     }
     .header_text_img button{
         margin-left: 15px;
@@ -209,9 +213,38 @@ body{
     .header_img img{
         width:329px;
         height:259px;
+        margin-top: 43px;
+        margin-right: 47px;
     }
     .players{
         grid-template-columns: repeat(1, 1fr);
+    }
+    #table_area h1{
+        font-size: 36px;
+    }
+    .tables{
+        width:350px;
+        margin-left:15px;
+    }
+    .storys{
+        flex-direction: column;
+    }
+    #story_area h1{
+        font-size: 36px;
+    }
+    .logo img{
+        width:150px;
+        height: 63px;
+        margin-right: 102px;
+    }
+    .footer{
+        margin-bottom: 50px;
+    }
+    .social {
+        margin-right: 81px;
+    }
+    .footer{
+        margin-right: 90px;
     }
 }
 
