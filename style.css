@@ -188,7 +188,7 @@ body{
     margin-top: 20px;
     margin-bottom: 63px;;
 }
-/*  ------------------------------------------Rsponsive ---------------------------------- */
+/*  ------------------------------------------Rsponsive Mobile---------------------------------- */
 
 
 @media only screen and (max-width:688px) {
@@ -214,16 +214,23 @@ body{
         width:329px;
         height:259px;
         margin-top: 43px;
-        margin-right: 47px;
+        margin-right: -22px;
+    }
+    .players_section{
+        width: 340px;
     }
     .players{
         grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .player{
+        margin-left: 4px;
     }
     #table_area h1{
         font-size: 36px;
     }
     .tables{
-        width:350px;
+        width:340px;
         margin-left:15px;
     }
     .storys{
@@ -234,21 +241,25 @@ body{
     }
     .logo img{
         width:150px;
-        height: 63px;
-        margin-right: 102px;
-    }
-    .footer{
         margin-bottom: 50px;
     }
-    .social {
-        margin-right: 81px;
+    #table_area{
+        width:340px;
+        
+    }
+    #story_area{
+        width:340px;
+    }
+    .logo img{
+        width: 209px;
+        margin-bottom: -5px;
     }
     .footer{
-        margin-right: 90px;
+        margin-top: 60px;
     }
 }
 
-
+/* ----------------------------------------------Respinsive Tablte-------------------------------------- */
 
 
 
