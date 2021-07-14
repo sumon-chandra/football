@@ -1,0 +1,453 @@
+/*--------------------------------------------- Google fonts-------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* ---------------------------------------------Common CSS ---------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #e9e9e9;
+}
+/* ---------------------------------------------header area -------------------------------------- */
+#header_area{
+    width:100%;
+    height:672px;
+    background-color: #2D25A0;
+}
+.btn button{
+    width:123px;
+    height:43px;
+    color:#fff;
+    background-color: #E02C6D;
+    font-size: 16px;
+    position: absolute;
+    right:124px;
+    top:42px;
+    border:none;
+}
+
+.btn button i{
+    margin-right: 10px;
+}
+
+.header_text_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_text h1{
+    font-size: 64px;
+    color:#fff;
+    font-weight:bold;
+    margin-left: 131px;
+    margin-top: 124px;
+    line-height: 77px;
+}
+.header_text_img button{
+    width:168px;
+    height:44px;
+    background-color:#E02C6D;
+    color:#fff;
+    font-size: 16px;
+    margin-left: 131px;
+    border: none;
+    margin-top: 27px;
+    font-weight: 400;
+}
+.header_text_img button i{
+    margin-left:10px;
+}
+.header_text_img button:hover{
+    background-color: black;
+}
+.header_img img{
+    width:556px;
+    height:438px;
+    margin-top:162px;
+    margin-right: 130px;
+}
+
+/* --------------------------------------------------------Players Area------------------------------*/
+
+.players_section{
+    width:1100px;
+    margin: auto;
+    
+}
+.players{
+    width:100%;
+    margin:85px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px;
+    justify-content: center;
+   
+}
+.player{
+    background-color: #ffffff;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height:474px;
+}
+
+.player_details{
+    margin-left: 14px;
+}
+.player_details h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.player_img img{
+    width:300px;
+    height:256px;
+    margin-top: 18px;
+}
+/* -------------------------------------------------EPL Table------------------------------------------- */
+
+#table_area{
+    width:1100px;
+    margin:auto;
+    background-color: #e2e0e0;   
+}
+#table_area h1{
+    font-size:64px;
+    font-weight: 700;
+    color:#E02C6D;
+}
+.tables{
+    width:700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(7, 1fr);
+    grid-template-rows: 2em repeat(6, 1fr);
+    background-color: #e7e7e7;
+    justify-content: center;
+    
+}
+.tables .hd{
+    font-weight: 700;
+}
+.column_1{
+    background-color: #fff;
+}
+
+.right{
+    justify-content: center;
+    align-items: center;
+}
+/* -------------------------------------------------Story Area------------------------- */
+#story_area{
+    width:1100px;
+    background-color:#fff ;
+    margin: auto;
+}
+#story_area h1{
+    font-size:64px;
+    font-weight: 700;
+    color:#E02C6D;
+}
+.storys{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    height:300px;
+}
+
+.story img{
+    width:300px;
+    height:200px;
+}
+/* ----------------------------------------------Footer Area---------------------------------- */
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 158px;
+}
+.logo img{
+    width:483px;
+    height:110;
+}
+
+.social i{
+    margin:20px 10px 0 0;
+    color:#969BAB;
+}
+.footer p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 63px;;
+}
+/*  ------------------------------------------Rsponsive ---------------------------------- */
+
+
+@media only screen and(max-width:688px){
+    #header_area{
+        width:400px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
